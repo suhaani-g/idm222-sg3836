@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -119,89 +118,23 @@ a:hover{
     max-height: 300px;
 }
 
-/*sections*/
-
-section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10 rem;
-    box-sizing: border-box;
-    min-height: fit-content;
-}
-
-.section-container {
-    display:flex;
-}
-
-/*profile*/
-
-#profile {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 80vh;
-}
-
-.section_pic-container{
-    display: flex;
-    height: 200px;
-    width: 200px;
-    margin: auto 0;
-}
-img{
-    height:300px;
-    width: auto;
-}
-.section_text {
-    align-self: center;
-    text-align: center;
-    line-height: 270%;
-}
-
-.section_text p{
-    font-weight: 600;
-}
-
-.section_text_p1 {
-    text-align:center;
-}
-
-.section_text_p1 {
-    font-size: 1.75rem;
-    margin-bottom: 1 rem;
-}
-
-.title{
-    font-size: 3rem;
-    text-align:center;
-}
-
-/*buttons*/
-
-.btn-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.btn {
-    font-weight: 600;
-    transition: all 300ms ease;
-    padding: 1rem;
-    width: 8 rem;
-    border-radius: 2rem;
-}
-
-.btn-color-1:hover {
-    cursor: pointer;
-}
-
-.btn-color-1 {
-    background: rgb(53, 53, 53);
-    color: white;
-}
-
-.btn-color-1:hover{
-    background: rgb(0,0,0);
-}
-
+container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  
+    .project {
+      padding: 10px;
+    }
+  }
