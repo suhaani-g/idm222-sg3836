@@ -138,3 +138,18 @@ container {
       padding: 10px;
     }
   }
+
+
+  .project img {
+    width: 100%;
+    height: auto;
+    max-width: 600px; 
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  p{
+    margin: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
