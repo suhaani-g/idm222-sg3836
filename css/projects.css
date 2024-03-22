@@ -158,3 +158,25 @@ container {
   h2{
     margin: 30px;
   }
+
+  .site-footer {
+    background-color: #1a1a1a; 
+    color: #f2f2f2; 
+    padding: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+  }
+  
+  .site-footer a {
+    color: #f2f2f2; 
+    text-decoration: none;
+  }
+  
+  .site-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-footer .phone {
+    margin-top: 10px;
+  }

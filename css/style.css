@@ -180,7 +180,7 @@ img{
 /*buttons*/
 
 .btn-container {
-    display:flex;
+
     justify-content: center;
     gap: 1rem;
 }
@@ -228,6 +228,7 @@ img{
   html, body { 
     display: flex;  
     flex-direction: column; 
+    
   }
   
   .about-me {
