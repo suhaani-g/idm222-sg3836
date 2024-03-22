@@ -8,7 +8,7 @@
 
 body{
     font-family: "Montserrat", sans-serif;
-    background-color: #E4E4E9;
+    background-color: #ECECEC;
     
 }
 
@@ -254,4 +254,29 @@ img{
       width: 90%; 
     }
   }
+
+
+  .site-footer {
+    background-color: #1a1a1a; 
+    color: #f2f2f2; 
+    padding: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+  }
+  
+  .site-footer a {
+    color: #f2f2f2; 
+    text-decoration: none;
+  }
+  
+  .site-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-footer .phone {
+    margin-top: 10px;
+  }
+  
+  m
   
