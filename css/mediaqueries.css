@@ -6,3 +6,40 @@
         display:flex;
     }
 }
+
+
+
+
+
+#hamburger-nav {
+    display: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+    /* Show hamburger and hide desktop navigation */
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+
+    
+    .section_text, .about-me, .contact-me {
+        padding: 15px;
+        text-align: center;
+    }
+
+
+
+    
+    .menu-links ul {
+        text-align: center;
+    }
+    .menu-links ul li {
+        padding: 5px;
+    }
+}
+
+
