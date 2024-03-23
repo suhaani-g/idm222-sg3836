@@ -132,6 +132,7 @@ section {
     margin: 0 10 rem;
     box-sizing: border-box;
     min-height: fit-content;
+    
 }
 
 .section-container {
@@ -143,24 +144,19 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+    gap: 3rem;
+    height: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 }
 
-.section_pic-container{
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-    height: 200px;
-    width: 200px;
-    margin:auto 0;
-}
+
 img{
+    width:auto;
     height:300px;
     width: auto;
+    align-self: center;
+    text-align: center;
 }
 .section_text {
     align-self: center;
@@ -194,6 +190,7 @@ img{
     align-items: center;
     gap: 1rem;
     position:relative;
+    flex-direction: row;
     
 }
 

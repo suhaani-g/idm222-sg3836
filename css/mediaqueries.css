@@ -54,6 +54,8 @@
         font-weight: 700;
     }
 
+    
+
 }
 
 
@@ -62,4 +64,21 @@
         width: calc(50% - 20px);
     }
     
+}
+
+@media screen and (max-width: 600px){
+    #profile {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+
+    }
+
+    #profile img{
+        height: 250px;
+        width: auto;
+    }
+    .btn-container{
+        margin-bottom: 20px;
+    }
 }
