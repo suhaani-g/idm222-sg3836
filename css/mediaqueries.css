@@ -1,11 +1,4 @@
-@media screen and (max-width: 1200px) {
-    #desktop-nav {
-        display: none;
-    }
-    #hamburger-nav{
-        display:flex;
-    }
-}
+
 
 
 
@@ -15,9 +8,9 @@
     display: none;
 }
 
-/* Responsive styles */
-@media screen and (max-width: 1200px) {
-    /* Show hamburger and hide desktop navigation */
+
+@media screen and (max-width: 900px) {
+    
     #desktop-nav {
         display: none;
     }
@@ -32,7 +25,6 @@
     }
 
 
-
     
     .menu-links ul {
         text-align: center;
@@ -40,6 +32,29 @@
     .menu-links ul li {
         padding: 5px;
     }
+
+    .project-box {
+        width: calc(100% - 20px);
+    }
+
+    .projects-container {
+        width: 100%;
+        margin-right: 200px;
+    }
+
+    .about-me {
+        width: 90%; 
+        margin-bottom: 30px; 
+        padding-bottom: 30px;
+        padding: 10px;
+        width: 90%;
+    }
 }
 
 
+@media screen and (min-width: 868px) {
+    .project-box {
+        width: calc(50% - 20px);
+    }
+    
+}
